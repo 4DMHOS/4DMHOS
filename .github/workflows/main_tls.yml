@@ -4,10 +4,12 @@
 name: Build and deploy Node.js app to Azure Web App - tls
 
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
+    # DISABLED: This workflow is disabled by default since the repo currently contains
+    # only config files, not a Node.js application. To re-enable, uncomment the push trigger below.
+    # push:
+    #   branches:
+    #     - main
 
 jobs:
   build:
