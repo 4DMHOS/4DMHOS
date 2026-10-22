@@ -1,3 +1,5 @@
 tls-hybrid.zip
 *.zip
 node_modules/
+.env
+*.pem
